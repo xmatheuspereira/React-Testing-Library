@@ -68,9 +68,7 @@ describe('Teste o componente <PokemonDetails.js />', () => {
     });
 
     expect(checkbox.checked).toBe(false);
-
     userEvent.click(checkbox);
-
     expect(checkbox.checked).toBe(true);
   });
 });
