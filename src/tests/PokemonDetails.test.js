@@ -61,7 +61,7 @@ describe('Teste o componente <PokemonDetails.js />', () => {
 
   test('Teste se é possível favoritar um pokémon através da página de detalhes', () => {
     const { history } = renderWithRouter(<App />);
-    history.push('pokemons/25');
+    history.push('pokemons/4');
 
     const checkbox = screen.getByRole('checkbox', {
       name: /pokémon favoritado\?/i,
